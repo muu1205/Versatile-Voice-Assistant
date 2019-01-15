@@ -144,6 +144,6 @@ elif(s.find('text')!=-1):
         number = cont[s]
         text_w(number)
     else:
-        cont = {'parmeet': '7607788922', 'abhishek': '8295566038', 'rushil': '9952111405'}
+        cont = {'parmeet': '7--------2', 'abhishek': '8--------8', 'rushil': '9--------5'}
         number = cont[s]
         text(number)
