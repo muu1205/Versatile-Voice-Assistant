@@ -131,7 +131,7 @@ elif(s.find('search')!=-1):
 elif(s.find('call')!=-1):
     s = s.replace('call', '')
     s = s.strip()
-    cont = {'parmeet': '7607788922', 'abhishek': '8295566038', 'rushil': '9952111405'}
+    cont = {'parmeet': '7--------2', 'abhishek': '8--------8', 'rushil': '9--------5'}
     number = cont[s]
     call(number)
 elif(s.find('text')!=-1):
@@ -140,7 +140,7 @@ elif(s.find('text')!=-1):
     if(s.find('on whatsapp')!=-1):
         s = s.replace('on whatsapp', '')
         s = s.strip()
-        cont = {'parmeet': '7607788922', 'abhishek': '8295566038', 'rushil': '9952111405'}
+        cont = {'parmeet': '7--------2', 'abhishek': '8--------8', 'rushil': '9--------5'}
         number = cont[s]
         text_w(number)
     else:
